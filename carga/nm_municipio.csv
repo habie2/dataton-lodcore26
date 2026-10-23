@@ -1,0 +1,180 @@
+municipio_ine,nombre,zona,poblacion,poblacion_anio,superficie_km2,dist_sol_km,pct_protegido
+28001,La Acebeda,Sierra Norte,70,2025,21.86,75.3,27.6
+28002,Ajalvir,Corredor del Henares,4868,2025,19.78,22.4,59.5
+28003,Alameda del Valle,Sierra de Guadarrama,267,2025,25.73,57.3,52.1
+28004,El Álamo,Sierra Oeste,10594,2025,22.0,31.7,14.0
+28005,Alcalá de Henares,Corredor del Henares,203208,2025,88.13,29.6,28.8
+28006,Alcobendas,Norte metropolitano,123342,2025,45.22,14.5,11.1
+28007,Alcorcón,Sur metropolitano,175719,2025,33.57,13.0,0.0
+28008,Aldea del Fresno,Sierra Oeste,3503,2025,51.66,45.7,100.0
+28009,Algete,Corredor del Henares,21144,2025,37.92,25.9,36.1
+28010,Alpedrete,Sierra de Guadarrama,15686,2025,12.66,38.2,32.1
+28011,Ambite,Sureste,732,2025,25.8,45.5,12.3
+28012,Anchuelo,Corredor del Henares,1414,2025,21.59,36.6,0.0
+28013,Aranjuez,Las Vegas,63040,2025,188.98,46.9,81.5
+28014,Arganda del Rey,Sureste,60419,2025,80.26,25.9,41.9
+28015,Arroyomolinos,Sur no metropolitano,38075,2025,20.79,23.5,47.4
+28016,El Atazar,Sierra Norte,110,2025,28.45,61.4,96.9
+28017,Batres,Sur no metropolitano,1976,2025,21.34,28.6,74.5
+28018,Becerril de la Sierra,Norte no metropolitano,6737,2025,30.53,37.7,60.6
+28019,Belmonte de Tajo,Las Vegas,1955,2025,24.07,44.2,0.0
+28020,Berzosa del Lozoya,Sierra Norte,242,2025,14.62,63.6,13.8
+28021,El Berrueco,Sierra Norte,795,2025,28.4,53.1,10.6
+28022,Boadilla del Monte,Oeste metropolitano,66349,2025,47.46,16.0,20.7
+28023,El Boalo,Norte no metropolitano,8770,2025,39.45,37.3,75.2
+28024,Braojos,Sierra Norte,233,2025,24.93,71.5,41.5
+28025,Brea de Tajo,Sureste,577,2025,44.73,53.2,0.0
+28026,Brunete,Sierra Oeste,11287,2025,49.17,24.8,18.5
+28027,Buitrago del Lozoya,Sierra Norte,2034,2025,25.95,63.8,32.6
+28028,Bustarviejo,Sierra Norte,2870,2025,56.13,47.2,70.5
+28029,Cabanillas de la Sierra,Sierra Norte,961,2025,13.81,45.7,0.0
+28030,La Cabrera,Sierra Norte,2889,2025,22.14,50.1,0.0
+28031,Cadalso de los Vidrios,Sierra Oeste,3372,2025,47.86,63.3,80.6
+28032,Camarma de Esteruelas,Corredor del Henares,8331,2025,35.18,32.1,100.0
+28033,Campo Real,Sureste,6974,2025,61.76,29.9,0.0
+28034,Canencia,Sierra Norte,475,2025,54.19,53.1,51.5
+28035,Carabaña,Sureste,2451,2025,47.64,42.8,10.3
+28036,Casarrubuelos,Las Vegas,4323,2025,5.34,29.2,0.0
+28037,Cenicientos,Sierra Oeste,2152,2025,68.25,71.0,100.0
+28038,Cercedilla,Sierra de Guadarrama,7772,2025,35.74,48.2,81.2
+28039,Cervera de Buitrago,Sierra Norte,165,2025,11.54,57.5,44.3
+28040,Ciempozuelos,Las Vegas,26350,2025,49.42,30.6,72.7
+28041,Cobeña,Corredor del Henares,7670,2025,20.79,23.6,39.2
+28042,Colmenar del Arroyo,Sierra Oeste,2044,2025,49.32,41.5,100.0
+28043,Colmenar de Oreja,Las Vegas,9127,2025,126.33,43.0,7.1
+28044,Colmenarejo,Sierra Oeste,9640,2025,31.48,29.9,64.7
+28045,Colmenar Viejo,Norte no metropolitano,58730,2025,182.85,27.7,30.1
+28046,Collado Mediano,Sierra de Guadarrama,7722,2025,22.2,41.5,9.2
+28047,Collado Villalba,Sierra de Guadarrama,67274,2025,25.2,34.7,38.5
+28048,Corpa,Corredor del Henares,832,2025,25.94,38.7,0.0
+28049,Coslada,Este metropolitano,80512,2025,12.03,12.8,0.8
+28050,Cubas de la Sagra,Las Vegas,7238,2025,12.89,27.5,0.0
+28051,Chapinería,Sierra Oeste,2705,2025,25.54,43.3,100.0
+28052,Chinchón,Las Vegas,5800,2025,115.77,34.1,6.6
+28053,Daganzo de Arriba,Corredor del Henares,10764,2025,43.41,27.1,100.0
+28054,El Escorial,Sierra de Guadarrama,17171,2025,68.81,38.1,0.4
+28055,Estremera,Las Vegas,1473,2025,79.13,58.8,2.1
+28056,Fresnedillas de la Oliva,Sierra Oeste,1883,2025,28.33,41.2,100.0
+28057,Fresno de Torote,Corredor del Henares,2561,2025,31.75,32.9,100.0
+28058,Fuenlabrada,Sur metropolitano,190076,2025,39.25,16.8,0.0
+28059,Fuente el Saz de Jarama,Corredor del Henares,7413,2025,33.15,29.3,33.2
+28060,Fuentidueña de Tajo,Las Vegas,2372,2025,60.19,57.4,3.8
+28061,Galapagar,Sierra de Guadarrama,36758,2025,65.18,29.7,49.4
+28062,Garganta de los Montes,Sierra Norte,441,2025,40.33,56.9,7.1
+28063,Gargantilla del Lozoya y Pinilla de Buitrago,Sierra Norte,396,2025,24.18,61.1,14.1
+28064,Gascones,Sierra Norte,252,2025,20.04,68.7,49.4
+28065,Getafe,Sur metropolitano,193238,2025,78.58,13.3,30.9
+28066,Griñón,Sur no metropolitano,10799,2025,17.08,25.0,0.0
+28067,Guadalix de la Sierra,Norte no metropolitano,6993,2025,60.26,39.1,8.5
+28068,Guadarrama,Sierra de Guadarrama,17547,2025,57.17,44.9,52.5
+28069,La Hiruela,Sierra Norte,88,2025,17.16,75.4,96.2
+28070,Horcajo de la Sierra-Aoslos,Sierra Norte,219,2025,21.2,74.3,0.6
+28071,Horcajuelo de la Sierra,Sierra Norte,104,2025,23.83,76.1,24.5
+28072,Hoyo de Manzanares,Norte no metropolitano,9310,2025,45.22,27.3,100.0
+28073,Humanes de Madrid,Sur metropolitano,20500,2025,19.67,21.1,0.0
+28074,Leganés,Sur metropolitano,195734,2025,43.23,11.2,0.0
+28075,Loeches,Sureste,9261,2025,44.32,24.6,0.0
+28076,Lozoya,Sierra Norte,598,2025,57.69,60.9,77.7
+28078,Madarcos,Sierra Norte,69,2025,8.55,70.2,3.4
+28079,Madrid,Madrid capital,3506730,2025,604.47,0.0,35.3
+28080,Majadahonda,Oeste metropolitano,73625,2025,38.47,17.2,33.1
+28082,Manzanares el Real,Norte no metropolitano,9648,2025,126.83,39.9,98.9
+28083,Meco,Corredor del Henares,15922,2025,34.92,35.8,65.1
+28084,Mejorada del Campo,Este metropolitano,25049,2025,17.94,19.5,20.0
+28085,Miraflores de la Sierra,Sierra Norte,7350,2025,56.41,42.7,34.4
+28086,El Molar,Norte no metropolitano,9999,2025,50.17,33.4,2.0
+28087,Los Molinos,Sierra de Guadarrama,4781,2025,19.17,47.2,44.3
+28088,Montejo de la Sierra,Sierra Norte,404,2025,32.19,76.7,36.8
+28089,Moraleja de Enmedio,Sur no metropolitano,5580,2025,31.19,23.1,20.4
+28090,Moralzarzal,Norte no metropolitano,14772,2025,43.52,34.4,74.9
+28091,Morata de Tajuña,Sureste,8397,2025,45.29,29.9,3.9
+28092,Móstoles,Sur metropolitano,214817,2025,44.86,19.2,13.3
+28093,Navacerrada,Sierra de Guadarrama,3311,2025,27.51,44.8,82.3
+28094,Navalafuente,Sierra Norte,1693,2025,12.18,44.5,0.1
+28095,Navalagamella,Sierra Oeste,3169,2025,75.73,36.2,99.5
+28096,Navalcarnero,Sierra Oeste,33331,2025,100.84,29.9,20.4
+28097,Navarredonda y San Mamés,Sierra Norte,163,2025,28.47,65.4,4.6
+28099,Navas del Rey,Sierra Oeste,3420,2025,50.52,48.3,100.0
+28100,Nuevo Baztán,Sureste,7429,2025,20.1,38.5,0.0
+28101,Olmeda de las Fuentes,Sureste,429,2025,16.52,42.6,0.0
+28102,Orusco de Tajuña,Sureste,1531,2025,21.36,44.2,5.0
+28104,Paracuellos de Jarama,Norte metropolitano,27650,2025,43.78,18.7,3.2
+28106,Parla,Sur metropolitano,137471,2025,24.97,21.3,0.0
+28107,Patones,Sierra Norte,617,2025,35.06,54.9,17.6
+28108,Pedrezuela,Norte no metropolitano,6606,2025,28.53,36.7,13.2
+28109,Pelayos de la Presa,Sierra Oeste,3195,2025,7.57,53.4,100.0
+28110,Perales de Tajuña,Sureste,3260,2025,49.28,36.6,4.2
+28111,Pezuela de las Torres,Corredor del Henares,1008,2025,41.67,44.6,7.7
+28112,Pinilla del Valle,Sierra Norte,200,2025,25.42,58.9,47.5
+28113,Pinto,Sur metropolitano,56651,2025,61.98,18.9,46.3
+28114,Piñuécar-Gandullas,Sierra Norte,183,2025,18.24,68.6,10.9
+28115,Pozuelo de Alarcón,Oeste metropolitano,89770,2025,43.06,9.4,0.0
+28116,Pozuelo del Rey,Sureste,1302,2025,30.91,34.1,0.0
+28117,Prádena del Rincón,Sierra Norte,146,2025,22.5,71.1,14.9
+28118,Puebla de la Sierra,Sierra Norte,98,2025,56.67,68.5,100.0
+28119,Quijorna,Sierra Oeste,4044,2025,25.62,30.3,36.7
+28120,Rascafría,Sierra de Guadarrama,1704,2025,149.22,52.2,87.1
+28121,Redueña,Sierra Norte,288,2025,13.03,45.3,0.0
+28122,Ribatejada,Corredor del Henares,905,2025,32.15,36.9,99.8
+28123,Rivas-Vaciamadrid,Este metropolitano,103148,2025,67.42,17.2,72.5
+28124,Robledillo de la Jara,Sierra Norte,118,2025,21.02,61.0,8.7
+28125,Robledo de Chavela,Sierra Oeste,4818,2025,94.18,46.2,81.2
+28126,Robregordo,Sierra Norte,79,2025,18.35,78.8,44.2
+28127,Las Rozas de Madrid,Norte metropolitano,99037,2025,58.3,19.8,45.9
+28128,Rozas de Puerto Real,Sierra Oeste,579,2025,29.54,70.1,82.2
+28129,San Agustín del Guadalix,Norte no metropolitano,13825,2025,38.24,30.5,39.3
+28130,San Fernando de Henares,Este metropolitano,39059,2025,38.84,18.7,37.2
+28131,San Lorenzo de El Escorial,Sierra de Guadarrama,18872,2025,56.36,42.5,54.0
+28132,San Martín de la Vega,Sur no metropolitano,21010,2025,105.09,22.7,82.7
+28133,San Martín de Valdeiglesias,Sierra Oeste,9324,2025,116.41,56.5,87.1
+28134,San Sebastián de los Reyes,Norte metropolitano,96992,2025,59.21,19.7,18.5
+28135,Santa María de la Alameda,Sierra de Guadarrama,1584,2025,75.7,50.0,2.0
+28136,Santorcaz,Corredor del Henares,1011,2025,28.22,41.2,0.0
+28137,Los Santos de la Humosa,Corredor del Henares,2867,2025,34.82,39.5,6.7
+28138,La Serna del Monte,Sierra Norte,110,2025,5.52,69.2,0.0
+28140,Serranillos del Valle,Sur no metropolitano,4670,2025,13.28,28.3,16.6
+28141,Sevilla la Nueva,Sierra Oeste,9802,2025,24.73,29.3,100.0
+28143,Somosierra,Sierra Norte,93,2025,20.4,81.3,34.6
+28144,Soto del Real,Norte no metropolitano,9400,2025,42.83,37.4,32.9
+28145,Talamanca de Jarama,Corredor del Henares,4607,2025,38.48,39.9,75.1
+28146,Tielmes,Sureste,2964,2025,26.58,39.7,7.1
+28147,Titulcia,Las Vegas,1389,2025,10.12,32.4,81.5
+28148,Torrejón de Ardoz,Norte metropolitano,143526,2025,32.37,21.5,4.7
+28149,Torrejón de la Calzada,Las Vegas,10653,2025,8.97,25.0,0.0
+28150,Torrejón de Velasco,Las Vegas,4900,2025,52.16,27.1,0.0
+28151,Torrelaguna,Sierra Norte,5081,2025,43.06,47.0,0.5
+28152,Torrelodones,Norte no metropolitano,25433,2025,21.68,25.8,76.3
+28153,Torremocha de Jarama,Sierra Norte,1157,2025,18.87,49.4,4.9
+28154,Torres de la Alameda,Corredor del Henares,7824,2025,43.32,28.5,1.8
+28155,Valdaracete,Las Vegas,658,2025,63.8,49.2,0.0
+28156,Valdeavero,Corredor del Henares,1896,2025,18.71,37.7,99.9
+28157,Valdelaguna,Las Vegas,1122,2025,42.05,38.8,0.0
+28158,Valdemanco,Sierra Norte,1097,2025,17.79,49.6,0.0
+28159,Valdemaqueda,Sierra Oeste,870,2025,51.71,51.5,99.8
+28160,Valdemorillo,Sierra Oeste,14420,2025,93.84,32.4,28.8
+28161,Valdemoro,Las Vegas,85972,2025,64.15,26.2,12.6
+28162,Valdeolmos-Alalpardo,Corredor del Henares,4626,2025,25.85,31.8,100.0
+28163,Valdepiélagos,Corredor del Henares,612,2025,17.69,43.3,99.7
+28164,Valdetorres de Jarama,Corredor del Henares,5175,2025,35.09,34.5,51.9
+28165,Valdilecha,Sureste,3289,2025,42.55,36.6,0.0
+28166,Valverde de Alcalá,Corredor del Henares,565,2025,13.74,34.2,0.0
+28167,Velilla de San Antonio,Este metropolitano,14468,2025,14.37,20.2,100.0
+28168,El Vellón,Norte no metropolitano,2281,2025,33.49,40.9,0.5
+28169,Venturada,Sierra Norte,2622,2025,10.22,42.8,0.0
+28170,Villaconejos,Las Vegas,3569,2025,33.27,38.0,0.0
+28171,Villa del Prado,Sierra Oeste,7743,2025,77.27,53.5,95.5
+28172,Villalbilla,Corredor del Henares,18687,2025,34.69,32.2,0.0
+28173,Villamanrique de Tajo,Las Vegas,859,2025,29.58,54.1,6.4
+28174,Villamanta,Sierra Oeste,2899,2025,63.24,38.1,0.0
+28175,Villamantilla,Sierra Oeste,1660,2025,23.92,38.3,100.0
+28176,Villanueva de la Cañada,Sierra Oeste,24028,2025,34.82,24.1,32.3
+28177,Villanueva del Pardillo,Sierra Oeste,18466,2025,25.38,23.9,41.3
+28178,Villanueva de Perales,Sierra Oeste,1715,2025,31.46,33.2,100.0
+28179,Villar del Olmo,Sureste,2341,2025,27.78,40.4,0.0
+28180,Villarejo de Salvanés,Las Vegas,8042,2025,118.99,48.8,0.4
+28181,Villaviciosa de Odón,Oeste metropolitano,30127,2025,68.19,20.7,60.5
+28182,Villavieja del Lozoya,Sierra Norte,332,2025,23.3,67.9,40.3
+28183,Zarzalejo,Sierra Oeste,1946,2025,20.18,42.7,0.0
+28901,Lozoyuela-Navas-Sieteiglesias,Sierra Norte,1468,2025,51.44,55.9,0.0
+28902,Puentes Viejas,Sierra Norte,759,2025,58.54,63.5,15.6
+28903,Tres Cantos,Norte metropolitano,54592,2025,37.96,21.7,61.0
