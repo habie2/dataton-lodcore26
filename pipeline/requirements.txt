@@ -1,0 +1,8 @@
+# Versiones con las que se generaron los CSV de carga
+pandas==3.0.5
+geopandas==1.2.0
+shapely==2.2.0
+pyogrio==0.13.0
+pyproj==3.8.0
+openpyxl==3.1.5
+osmium==4.3.2

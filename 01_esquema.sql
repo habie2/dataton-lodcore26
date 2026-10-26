@@ -11,11 +11,13 @@
 -- /
 
 -- Municipios: INE (población) + límites municipales (superficie, centroide) +
--- Red Natura 2000 (porcentaje del término protegido, cruce de polígonos).
+-- Red Natura 2000 (porcentaje del término protegido, cruce de polígonos) +
+-- zona estadística oficial de la Comunidad de Madrid (NUTS4, 11 zonas).
 CREATE TABLE nm_municipio (
   municipio_ine             VARCHAR2(5)   CONSTRAINT nm_municipio_pk PRIMARY KEY,
   nombre          VARCHAR2(100) NOT NULL,
-  zona            VARCHAR2(40),
+  zona_codigo     VARCHAR2(2)   NOT NULL,
+  zona            VARCHAR2(40)  NOT NULL,
   poblacion       NUMBER(9)     NOT NULL CONSTRAINT nm_mun_pob_ck CHECK (poblacion > 0),
   poblacion_anio  NUMBER(4)     NOT NULL,
   superficie_km2  NUMBER(10,2)  NOT NULL,
@@ -98,7 +100,6 @@ CREATE TABLE nm_perfil (
   CONSTRAINT nm_perfil_suma_ck CHECK (w_suelo + w_servicios + w_comercio = 100)
 );
 
--- Valores predefinidos para los perfiles
 INSERT INTO nm_perfil VALUES ('EQ',    'Equilibrado', 34, 33, 33);
 INSERT INTO nm_perfil VALUES ('FAM',   'Familia',     25, 55, 20);
 INSERT INTO nm_perfil VALUES ('JOVEN', 'Joven',       55, 15, 30);

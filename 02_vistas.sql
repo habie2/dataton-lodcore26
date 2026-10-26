@@ -30,7 +30,7 @@ FROM nm_centro_educativo c;
 
 -- 1. Indicadores simples ------------------------------------------------------
 CREATE OR REPLACE VIEW v_nm_bruto AS
-SELECT m.municipio_ine, m.nombre, m.zona, m.poblacion, m.poblacion_anio,
+SELECT m.municipio_ine, m.nombre, m.zona_codigo, m.zona, m.poblacion, m.poblacion_anio,
        m.superficie_km2, m.dist_sol_km, m.pct_protegido,
        NVL(s.sup_sin_edificar_ha, 0)  AS suelo_libre_ha,
        s.parcelas_sin_edificar,
@@ -178,7 +178,7 @@ END nm_ranking;
 
 -- 6. Exportación para la web --------------------------------------------------
 CREATE OR REPLACE VIEW v_nm_web AS
-SELECT municipio_ine, nombre, zona, poblacion, poblacion_anio,
+SELECT municipio_ine, nombre, zona_codigo, zona, poblacion, poblacion_anio,
        superficie_km2 AS km2, dist_sol_km AS dist_km, pct_protegido AS protegido_pct,
        suelo_libre_ha, parcelas_sin_edificar,
        ROUND(alquiler_m2, 2) AS alquiler_m2, alquiler_origen, alquiler_anio,
