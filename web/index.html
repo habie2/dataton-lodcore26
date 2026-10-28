@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="css/estilos.css?v=4">
+  <link rel="stylesheet" href="css/estilos.css?v=7">
 </head>
 
 <body>
@@ -21,12 +21,59 @@
         <p>¿Dónde cabe Madrid? Índice de preparación de los 179 municipios para acoger nueva población: suelo y
           vivienda, servicios públicos y comercio.</p>
       </div>
-      <nav class="tabs" role="tablist" aria-label="Perfil" hidden>
-        <button role="tab" data-view="ciud" aria-selected="true">Ciudadanía</button>
-        <button role="tab" data-view="admin" aria-selected="false">Administración</button>
-        <button role="tab" data-view="met" aria-selected="false">Método y datos</button>
-      </nav>
+      <div class="top-acciones">
+        <nav class="tabs" role="tablist" aria-label="Perfil" hidden>
+          <button role="tab" data-view="ciud" aria-selected="true">Ciudadanía</button>
+          <button role="tab" data-view="admin" aria-selected="false">Administración</button>
+          <button role="tab" data-view="met" aria-selected="false">Método y datos</button>
+        </nav>
+        <button type="button" class="ayuda-btn" id="ayuda-btn" hidden>Cómo funciona</button>
+      </div>
     </header>
+
+    <!-- Guía de bienvenida: se abre sola la primera vez y con el botón "Cómo funciona" -->
+    <dialog class="guia" id="guia" aria-labelledby="guia-titulo">
+      <form method="dialog">
+        <p class="guia-eyebrow">Bienvenida</p>
+        <h2 id="guia-titulo">Cómo funciona NidoMadrid</h2>
+        <p class="guia-lede">Compara los 179 municipios de la Comunidad de Madrid según lo preparados que están para
+          acoger a más vecinos.</p>
+        <ol class="guia-pasos" id="guia-pasos">
+          <li>
+            <span class="guia-n">1</span>
+            <div><strong>Elige qué te importa</strong>
+              <p>En <em>Ciudadanía</em>, reparte 100 puntos entre suelo y vivienda, servicios y comercio, o elige un
+                perfil, y pulsa <em>Calcular</em>.</p>
+            </div>
+          </li>
+          <li>
+            <span class="guia-n">2</span>
+            <div><strong>Explora el mapa y el ranking</strong>
+              <p>Cuanto más oscuro, mejor preparado. Pulsa un municipio para ver su ficha con los datos de cada
+                dimensión.</p>
+            </div>
+          </li>
+          <li>
+            <span class="guia-n">3</span>
+            <div><strong>Mira la vista de la administración</strong>
+              <p>En <em>Administración</em> verás dónde se puede edificar ya y dónde hacen falta antes servicios, y cuál
+                falta.</p>
+            </div>
+          </li>
+          <li id="guia-paso-chat" hidden>
+            <span class="guia-n">4</span>
+            <div><strong>Pregunta a los datos</strong>
+              <p>Con la burbuja de abajo a la derecha puedes preguntar en lenguaje natural. Oracle lo convierte en SQL y
+                te enseña la consulta.</p>
+            </div>
+          </li>
+        </ol>
+        <p class="guia-nota">Las fuentes y las reglas de cálculo están en <em>Método y datos</em>.</p>
+        <div class="guia-acciones">
+          <button class="btn" value="ok">Empezar</button>
+        </div>
+      </form>
+    </dialog>
 
     <p class="cargando" id="cargando">Cargando datos…</p>
 
@@ -86,8 +133,8 @@
     </form>
   </aside>
 
-  <script src="js/config.js?v=4"></script>
-  <script src="js/app.js?v=4"></script>
+  <script src="js/config.js?v=7"></script>
+  <script src="js/app.js?v=7"></script>
 </body>
 
 </html>

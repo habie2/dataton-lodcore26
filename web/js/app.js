@@ -634,7 +634,6 @@ const FUENTES = [
   [
     "Transporte",
     "GTFS del Consorcio (Metro, Cercanías, Metro Ligero, interurbanos y urbanos) y de la EMT, octubre 2026",
-    // "https://datos-movilidad.crtm.es/",
     "https://datos.crtm.es/search",
   ],
   [
@@ -910,6 +909,37 @@ document
   .querySelectorAll(".tabs button")
   .forEach((b) => b.addEventListener("click", () => mostrar(b.dataset.view)));
 
+/* Guía de bienvenida: se abre sola la primera visita (recordado en este navegador)
+   y siempre con el botón "Cómo funciona". Si el almacenamiento falla, se abre igual. */
+const GUIA_KEY = "nidomadrid_guia_vista";
+function abrirGuia() {
+  const d = $("#guia");
+  if (!d || d.open) return;
+  $("#guia-paso-chat").hidden = !CONFIG.CHAT_URL;
+  if (typeof d.showModal === "function") d.showModal();
+  else d.setAttribute("open", "");
+  d.scrollTop = 0; // en pantallas bajas, empezar por el título y no por el botón
+}
+function montarGuia() {
+  const d = $("#guia");
+  if (!d) return;
+  $("#ayuda-btn").hidden = false;
+  $("#ayuda-btn").addEventListener("click", abrirGuia);
+  d.addEventListener("click", (e) => {
+    if (e.target === d) d.close();
+  }); // clic fuera de la ventana
+  d.addEventListener("close", () => {
+    try {
+      localStorage.setItem(GUIA_KEY, "1");
+    } catch (_) {}
+  });
+  let vista = false;
+  try {
+    vista = localStorage.getItem(GUIA_KEY) === "1";
+  } catch (_) {}
+  if (!vista) abrirGuia();
+}
+
 async function arrancar() {
   $("#cargando").hidden = false;
   $("#error").hidden = true;
@@ -924,6 +954,10 @@ async function arrancar() {
     } // sin CHAT_URL no aparece la burbuja
     const ancla = location.hash.slice(1);
     mostrar(["ciud", "admin", "met"].includes(ancla) ? ancla : "ciud");
+    if (!montarGuia.hecho) {
+      montarGuia.hecho = true;
+      montarGuia();
+    }
   } catch (e) {
     console.warn("NidoMadrid: no se han podido cargar los datos.", e);
     $("#error-detalle").textContent =
